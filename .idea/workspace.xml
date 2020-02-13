@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeckTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Deck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DeckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DeckTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,16 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DeckTest.canPopulateDeck">
-    <configuration name="CardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CardGameLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CardTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DeckTest.highCardWinsOrDraw">
     <configuration name="DeckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CardGameLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,13 +91,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeckTest.highCardWinsOrDraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CardGameLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeckTest" />
+      <option name="METHOD_NAME" value="highCardWinsOrDraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeckTest.highCardWinsOrDraw" />
         <item itemvalue="JUnit.DeckTest.canPopulateDeck" />
         <item itemvalue="JUnit.DeckTest.canDealCard" />
         <item itemvalue="JUnit.DeckTest.getRandomNumber" />
         <item itemvalue="JUnit.DeckTest" />
-        <item itemvalue="JUnit.CardTest" />
       </list>
     </recent_temporary>
   </component>

@@ -1,11 +1,9 @@
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Random;
 
 public class Deck {
 
     private ArrayList<Card> cards;
-    private Random rand = new Random();
 
     public Deck(){
         cards = new ArrayList<Card>();
@@ -26,8 +24,22 @@ public class Deck {
 
     }
 
-    public void dealCard(){
-        this.cards.remove(0);
+    public void dealCard(Player player){
+        Card card = this.cards.remove(0);
+        player.receiveCard(card);
     }
 
+    public String decideWinner(Player player1, Player player2) {
+        int p1Value = player1.getCard().getRank().ordinal();
+        int p2Value = player2.getCard().getRank().ordinal();
+        if (p1Value > p2Value){
+            return "P1 Win!";
+        }
+        else if (p1Value < p2Value){
+            return "P2 Win!";
+        }
+        else {
+            return "Draw!";
+        }
+    }
 }
